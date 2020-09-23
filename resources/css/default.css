@@ -3,11 +3,26 @@ body {
 }
 
 div {
-    max-width: 500px;
+    max-width: 544px;
     margin: auto;
 }
 
 .image {
     max-width: 272px;
     margin: auto;
+}
+
+.search {
+    max-width: 544px;
+    margin: auto;
+}
+
+#search-form {
+    width: 536px;
+    height: 35px;
+    border-radius: 30px;
+}
+
+#search-form:focus {
+    outline: none;
 }
