@@ -53,6 +53,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 75%;
+    max-width: 584px;
     margin: auto;
 }
 
