@@ -23,7 +23,18 @@ body {
     top: 0;
     height: 40px;
     width: 100%;
-    background-color: hotpink;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__left {
+    display: flex;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
