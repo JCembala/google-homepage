@@ -39,7 +39,7 @@ body {
     align-items: center;
 }
 
-.header__link, .header__signin {
+.header__link, .header__signin, .header__apps {
     text-decoration: none;
     color: #000;
 }
@@ -49,8 +49,12 @@ body {
 }
 
 .header__apps {
-    height: 16px;
     padding: 0 10px;
+    color: #666;
+}
+
+.header__apps:hover {
+    color: #000;
 }
 
 .header__link {
