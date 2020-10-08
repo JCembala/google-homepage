@@ -78,8 +78,7 @@ body {
 
 .logo__picture {
     max-width: 272px;
-    margin: auto;
-    margin-bottom: 25px;
+    margin:0 auto 35px auto;
 }
 
 .search {
@@ -92,13 +91,31 @@ body {
 }
 
 .search__box {
+    display: flex;
     border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     border: 1px solid #eeeeee;
-    margin-bottom: 15px;
-    padding: 15px 45px;
+    justify-content: space-evenly;
+    margin: 0 0 35px 0;
+    padding: 10px 20px;
 }
 
-.search__box:focus {
+.search__magnifying-glass {
+    color: #c0c4c7;
+}
+
+.search__mic {
+    text-decoration: none;
+    color: #c0c4c7;
+}
+
+.search__text {
+    border: none;
+    width: 90%;
+    padding: 0 10px;
+}
+
+.search__text:focus {
     outline: none;
 }
 
@@ -109,8 +126,18 @@ body {
 }
 
 .search__button {
-    margin: 0 5px;
     border: none;
+    border-radius: 5px;
+    color: #5f6368;
+    font-size: 14px;
+    padding: 10px 10px;
+    margin: 0 5px;
+    border: 1px solid #efefef;
+}
+
+.search__button:hover {
+    color: #000;
+    border: 1px solid #5f6368;
 }
 
 .footer {

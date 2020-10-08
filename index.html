@@ -6,8 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/resources/css/normalization.css">
     <link rel="stylesheet" href="/resources/css/default.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Google Copy</title>
 </head>
 
@@ -31,7 +30,11 @@
                 alt="google homepage logo">
         </section>
         <section class="search">
-            <input class="search__box" type="text" placeholder="">
+            <div class="search__box">
+                <i class="search__magnifying-glass material-icons">search</i>
+                <input class="search__text" type="text" placeholder="">
+                <a class="search__mic material-icons" href="#">mic</a>
+            </div>
             <div class="search__buttons">
                 <button class="search__button">Google Search</button>
                 <button class="search__button">I'm Feeling Lucky</button>
